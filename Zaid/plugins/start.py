@@ -4,14 +4,16 @@ from telethon import events, Button
 
 PM_START_TEXT = """
 ʜᴇʏᴀ! {}
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-✘ **ɪ'ᴍ ᴀ ꜱɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ᴀɴᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ**.
-‣ **ɪ ᴄᴀɴ ᴘʟᴀʏ ꜱᴏɴɢꜱ ɪɴ ʏᴏᴜʀ ᴠᴏɪᴄᴇ**.
-‣ **ɪ ʜᴀᴠᴇ ᴀʟᴍᴏꜱᴛ ᴀʟʟ ꜰᴇᴀᴛᴜʀᴇꜱ ᴡʜɪᴄʜ ɴᴇᴇᴅꜱ ᴀ ᴍᴜꜱɪᴄ ʙᴏᴛ**
-‣ **ᴛʜɪꜱ ʙᴏᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴛᴇʟᴇᴛʜᴏɴ. ꜱᴏ ɪᴛ'ꜱ ᴘʀᴏᴠɪᴅᴇ ᴍᴏʀᴇ ꜱᴛᴀʙɪʟɪᴛʏ ꜰʀᴏᴍ ᴏᴛʜᴇʀ ʙᴏᴛꜱ**!
-‣ **ɪ ᴄᴀɴ ᴅᴏ ᴏᴛʜᴇʀ ᴛʜɪɴɢꜱ ʟɪᴋᴇ ᴘɪɴꜱ ᴇᴛᴄꜱ**.
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-✘ **ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ 🔘 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ℹ️**.
+━━━━━━━𝘿𝞓𝙍𝙎𝙃𝞓𝞟𝞓 ━━━━━━━
+๏ ᴀ ғᴀꜱᴛ ᴀɴᴅ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜꜱɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴀᴡᴇꜱᴏᴍᴇ ғᴇᴀᴛᴜʀᴇꜱ.
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴄʀᴇᴀᴛᴏʀ : @Kailas_vg
+┣★ ꜱᴜᴘᴘᴏʀᴛ : @About_Kailas
+┣★ ᴜᴘᴅᴀᴛᴇꜱ : @Pranav_Updates
+┣★ ɴᴇᴛᴡᴏʀᴋ : @Hell_Federation_TG
+┗━━━━━━━━━━━━━━━━━┛
+๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ.
+━━━━━━━𝘿𝞓𝙍𝙎𝙃𝞓𝞟𝞓 ━━━━━━━
 """
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]start$"))
@@ -24,7 +26,7 @@ async def start(event):
              caption=PM_START_TEXT.format(event.sender.first_name), 
              buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://github.com/ITZ-ZAID/Telethon-Music")],
+        [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://t.me/about_kailas/36")],
         [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
@@ -42,7 +44,7 @@ async def _(event):
     if event.is_private:
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://github.com/ITZ-ZAID/Telethon-Music")],
+        [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://t.me/about_kailas/36")],
         [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
