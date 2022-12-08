@@ -27,12 +27,12 @@ async def start(event):
              buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://t.me/about_kailas/36")],
-        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
+        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("🍁 ɴᴇᴛᴡᴏʀᴋ", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
 
     if event.is_group:
-       await event.reply("**ʜᴇʏ! ɪ'ᴍ ꜱᴛɪʟʟ ᴀʟɪᴠᴇ ✅**")
+       await event.reply("**𝗛𝗲𝘆𝗮 𝗜 𝗮𝗺 𝘀𝘁𝗶𝗹𝗹 𝗮𝗹𝗶𝘃𝗲✅ :) 𝗣𝗠 𝗺𝗲 𝗶𝗳 𝘆𝗼𝘂 𝗵𝗮𝘃𝗲 𝗮𝗻𝘆 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗵𝗼𝘄 𝘁𝗼 𝘂𝘀𝗲 𝗺𝗲!**")
        return
 
 
@@ -45,6 +45,6 @@ async def _(event):
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://t.me/about_kailas/36")],
-        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
+        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("🍁 ɴᴇᴛᴡᴏʀᴋ", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
