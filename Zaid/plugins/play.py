@@ -129,7 +129,7 @@ async def _(event):
 
 btnn =[
     [Button.url("sᴜᴘᴘᴏʀᴛ ⚙️", url=f"t.me/{Config.SUPPORT}"), Button.url(" ɴᴇᴛᴡᴏʀᴋ 🍁", url=f"t.me/{Config.CHANNEL}")],
-    [Button.url("ᴏᴡɴᴇʀ 👤", url=f"t.me/{Config.kailas_vg}"), Button.inline("cʟᴏꜱᴇ 🗑️", data="cls")]]
+    [Button.url("ᴏᴡɴᴇʀ 👤", url=f"t.me/kailas_vg"), Button.inline("cʟᴏꜱᴇ 🗑️", data="cls")]]
 
 
 #play
